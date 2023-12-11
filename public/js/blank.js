@@ -11,8 +11,22 @@ function blank(){
   '<iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 99999;height: 100%;" src="'+url+'"></iframe>');
 }
 
-if (inFrame()){
-  blank();
-} else{
-  location.href = url
+let fails = [5,0]
+function attemptBlank(){
+  try {
+    if (inFrame()){
+      blank();
+      window.location.href = 'https://drive.google.com/drive/'
+    } else {
+      location.href = url
+    }
+  } catch (err) {
+    if (fails[1] < 5){
+      fails[i]++
+      attemptBlank()
+    } else{
+      alert("Couldn't open a blank page :(")
+    }
+  }
 }
+attemptBlank()
