@@ -1,5 +1,5 @@
 const name = 'main.html'
-const url = document.URL + name
+const url = location.href + name
 
 function inFrame(){
   return location.href !== window.parent.location.href
@@ -12,13 +12,14 @@ function blank(){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  alert('Loaded')
   try {
-    if (inFrame()){
+    if (!inFrame()){
       blank();
       window.location.href = 'https://drive.google.com/drive/'
-    } else {
-      location.href = url
+    } else{
+      if (!location.href.includes(name)){
+        window.location.href = '/' + name
+      }
     }
 } catch (err){
   alert(err)
