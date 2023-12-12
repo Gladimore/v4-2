@@ -13,12 +13,12 @@ function blank(){
 
 document.addEventListener('DOMContentLoaded', () => {
   try {
-    if (!inFrame()){
+    if (inFrame()){
       blank();
-      window.location.href = 'https://drive.google.com/drive/'
+      location.href = 'https://drive.google.com/drive/'
     } else{
       if (!location.href.includes(name)){
-        window.location.href = '/' + name
+        location.href = '/' + name
       }
     }
 } catch (err){
