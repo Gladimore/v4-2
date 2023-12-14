@@ -51,7 +51,7 @@ var apps = [
       "id": "reddit",
       "title": "Reddit",
       "url": "https://reddit.com",
-      'image': 'https://www.redditinc.com/assets/images/site/reddit-logo.png'
+      'image': 'https://ibb.co/sVzgggf'
     },
     {
       "id": "youtube",
