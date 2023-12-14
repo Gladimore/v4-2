@@ -93,7 +93,7 @@ var apps = [
       'id': 'win11',
       'title': 'Windows 11 in React',
       'url': 'https://win11.blueedge.me/',
-      "image": "https://cdn.upload.systems/uploads/lnysPmIS.png",
+      "image": "https://ibb.co/sJVx47n",
       "description": "A remake of the Windows 11 UI in React.js"
     },
     {
