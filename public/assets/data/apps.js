@@ -63,7 +63,7 @@ var apps = [
       "id": "twitter",
       "title": "Twitter",
       "url": "https://twitter.com",
-      'image': 'https://seeklogo.com/images/T/twitter-icon-square-logo-108D17D373-seeklogo.com.png'
+      'image': 'https://ibb.co/N3mvFDh'
     },
     {
       'id': 'spotify',
