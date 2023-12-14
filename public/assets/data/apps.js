@@ -114,7 +114,7 @@ var apps = [
       'id': 'gbaemulator',
       'title': 'GBA Emulator',
       'url': 'https://cattn.github.io/gba',
-      "image": "https://cattn.github.io/gba/pwa/apple-icon-180.png",
+      "image": "https://i.ibb.co/VSd5LxQ/download.jpg",
       "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
     }
   ]
