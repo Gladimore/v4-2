@@ -82,40 +82,6 @@ var apps = [
       'title': 'movie-web',
       'url': 'http://movie-web.app/',
       'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
-    },
-    {
-      'id': 'coolmathgames',
-      'title': 'Cool Math Games',
-      'url': 'https://coolmathgames.com',
-      'image': 'https://ibb.co/VgnfnZS'
-    },
-    {
-      'id': 'win11',
-      'title': 'Windows 11 in React',
-      'url': 'https://win11.blueedge.me/',
-      "image": "https://ibb.co/sJVx47n",
-      "description": "A remake of the Windows 11 UI in React.js"
-    },
-    {
-      'id': 'win10',
-      'title': 'Windows 10 in React',
-      'url': 'https://win-10.vercel.app/',
-      "image": "https://downlody.com/windows/files/image/Windows-10-icon.png",
-      "description": "Windows 10 recreation in React.js"
-    },
-    {
-      'id': 'winxp',
-      'title': 'Windows XP in React',
-      'url': 'https://www.oonjaa.com/',
-      "image": "https://archive.org/services/img/1d9464dbff7a1630882d0e2090cb714c",
-      "description": "Windows XP recreation in React.js"
-    },
-    {
-      'id': 'gbaemulator',
-      'title': 'GBA Emulator',
-      'url': 'https://cattn.github.io/gba',
-      "image": "https://i.ibb.co/VSd5LxQ/download.jpg",
-      "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
     }
   ]
   
