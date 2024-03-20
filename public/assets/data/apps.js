@@ -82,7 +82,13 @@ var apps = [
       'title': 'movie-web',
       'url': 'http://movie-web.app/',
       'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
-    }
+    },
+    {
+      'id': 'twitch-web',
+      'title': 'Twitch',
+      'url': 'http://twitch.tv',
+      'image': 'https://i.ibb.co/ZK0Yc8G/image-removebg-preview.png'
+    },
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))
