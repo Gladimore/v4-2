@@ -48,12 +48,6 @@ var apps = [
       'image': 'https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png'
     },
     {
-      "id": "reddit",
-      "title": "Reddit",
-      "url": "https://reddit.com",
-      'image': 'https://ibb.co/sVzgggf'
-    },
-    {
       "id": "youtube",
       "title": "YouTube",
       "url": "https://youtube.com",
@@ -63,7 +57,7 @@ var apps = [
       "id": "twitter",
       "title": "Twitter",
       "url": "https://twitter.com",
-      'image': 'https://ibb.co/N3mvFDh'
+      'image': 'https://i.ibb.co/26s9FV2/image.png'
     },
     {
       'id': 'spotify',
@@ -75,7 +69,7 @@ var apps = [
       'id': 'chess',
       'title': 'Chess.com',
       'url': 'https://chess.com',
-      'image': 'https://ibb.co/7v1wYbb'
+      'image': 'https://i.ibb.co/Nxy8V77/image.png'
     },
     {
       'id': 'movie-web',
