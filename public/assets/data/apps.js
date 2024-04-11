@@ -73,9 +73,9 @@ var apps = [
     },
     {
       'id': 'movie-web',
-      'title': 'movie-web',
-      'url': 'http://movie-web.app/',
-      'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
+      'title': 'CineGo.tv',
+      'url': 'http://cinego.tv/',
+      'image': 'https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cinego.tv/&size=256'
     },
     {
       'id': 'twitch-web',
