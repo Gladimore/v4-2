@@ -81,7 +81,7 @@ var apps = [
       'id': 'twitch-web',
       'title': 'Twitch',
       'url': 'http://twitch.tv',
-      'image': 'https://i.ibb.co/ZK0Yc8G/image-removebg-preview.png'
+      'image': 'https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://twitch.tv/&size=256'
     },
   ]
   
