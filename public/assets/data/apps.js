@@ -69,7 +69,7 @@ var apps = [
       'id': 'chess',
       'title': 'Chess.com',
       'url': 'https://chess.com',
-      'image': 'https://i.ibb.co/Nxy8V77/image.png'
+      'image': 'https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://chess.com/&size=256'
     },
     {
       'id': 'movie-web',
