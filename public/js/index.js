@@ -1,5 +1,5 @@
 if (window.self === window.parent){
-    window.location.href = "/"
+    window.open('/')
 } // So if someone tries to skip the login page
 
 const setObj = function (key, obj) {
