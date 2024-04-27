@@ -1,3 +1,7 @@
+if (window.self === window.parent){
+    window.location.href = window.location.host
+} // So if someone tries to skip the login page
+
 const setObj = function (key, obj) {
     localStorage.setItem(key, JSON.stringify(obj))
 }
