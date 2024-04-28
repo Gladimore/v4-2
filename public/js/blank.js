@@ -45,7 +45,7 @@ export function login() {
           console.log('visitorId not found')
 
           let par = (!inFrame() && window) || inFrame() && window.parent
-          par.location.href = "https://drive.google.com/drive"
+          par.location.href = "https://gladimore.github.io/getId/"
         }
       })
   } catch (err) {
