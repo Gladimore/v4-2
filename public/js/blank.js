@@ -1,8 +1,6 @@
 const path = "/main.html"
 
 export function blank(url, sentWindow = window) {
-  ensure()
-  
   if (!inFrame()){
     var w = window.open("about:blank", "_blank")
   w.document.write('<script>document.title = "about:blank";</script>' +
