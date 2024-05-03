@@ -1,4 +1,4 @@
-const path = "https://aluu.xyz/en/"
+const path = "/main.html"
 
 function blank(){
   var w = window.open("about:blank", "_blank")
