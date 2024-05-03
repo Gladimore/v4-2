@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <body>
-    <script type="module">
-      const {blank} = import('/js/blank.js')
-      new blank("/main.html", window)
+    <script>
+  var w = window.open("about:blank", "_blank")
+  w.document.write('<script>document.title = "about:blank";</script>' +
+    '<iframe style="position: absolute;top: 0px;bottom: 0px;right: 0px;width: 100%;border: none;margin: 0;padding: 0;overflow: hidden;z-index: 99999;height: 100%;" src="' + url + '"></iframe>');
+    window.location.href = "//google.com"
     </script>
   </body>
 </html>
