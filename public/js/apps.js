@@ -7,7 +7,7 @@ apps.forEach(app => {
   descrip.classList.add("description")
   card.classList.add("card")
 
-  image.src = app.image || `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${app.url || ""}&size=256`
+  image.src = app.image || `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${app.url}&size=256`
   
   if (app.description) descrip.innerHTML = app.description
   image.loading = "lazy"
