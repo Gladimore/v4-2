@@ -7,8 +7,8 @@ apps.forEach(app => {
   descrip.classList.add("description")
   card.classList.add("card")
 
-  image.src = app.image || `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${app.url}&size=256`
-  
+  if (app.image) image.src = app.image
+  if (!app.image) image.src = "https://www.pngkey.com/png/full/167-1670247_white-globe-icon-png-holy-bible-new-international.png"
   if (app.description) descrip.innerHTML = app.description
   image.loading = "lazy"
   text.innerHTML = app.title
