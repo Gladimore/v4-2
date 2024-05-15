@@ -65,6 +65,11 @@ var apps = [
       'url': 'https://cinego.tv/',
       'image': 'https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://cinego.tv&size=256'
     },
+    {
+        'id': 'test',
+        'title': 'Test',
+        'url': 'https://google.com'
+    }
   ]
   
   var customapps = JSON.parse(localStorage.getItem("customapps"))
