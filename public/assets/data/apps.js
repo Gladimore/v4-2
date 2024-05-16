@@ -4,30 +4,37 @@ var apps = [{
     image: 'assets/images/add.png'
   },
   {
+    id: 'google',
     title: 'Google',
     url: 'https://www.google.com/?safe=active&ssui=on'
   },
   {
+    id: 'disc',
     title: 'Discord',
     url: 'https://discord.com/app'
   },
   {
+    id: 'telegram',
     title: 'Telegram',
     url: 'https://web.telegram.org/a/'
   },
   {
+    id: 'guilded',
     title: 'Guilded',
     url: 'https://www.guilded.gg/'
   },
   {
+    id: 'geforce',
     title: 'GeForce NOW (may not work)',
     url: 'https://play.geforcenow.com'
   },
   {
+    id: 'studiocode',
     title: 'Visual Studio Code',
     url: 'https://vscode.dev/'
   },
   {
+    id: 'tikkytok',
     title: 'TikTok',
     url: 'https://tiktok.com'
   },
@@ -37,15 +44,18 @@ var apps = [{
     url: 'https://youtube.com'
   },
   {
+    id: 'spofity',
     title: 'Spotify',
     url: 'https://open.spotify.com/browse'
   },
   {
+    id: 'cinego',
     title: 'CineGo',
     url: 'https://cinego.tv/'
   },
   {
-  	'title': 'Now.gg',
+    id: 'now.gg',
+    'title': 'Now.gg',
     'url': 'https://now.gg'
   }
 ]
@@ -55,22 +65,5 @@ if (customapps) customapps.forEach(app => {
   apps.push(app)
 })
 
-async function assignIds() {
-  for (let i = 0; i < apps.length; i++) {
-    let app = apps[i];
-
-    if (app.id === undefined) {
-      await fetch('https://www.uuidtools.com/api/generate/v1')
-        .then((res) => res.json())
-        .then((data) => {
-          app.id = data[0];
-        });
-    }
-    console.log(app)
-  }
-}
-
-assignIds().then(() => {
-  console.log("Loaded " + apps.length + " apps");
-  if (customapps) console.log("Loaded " + customapps.length + " custom apps");
-});
+console.log("Loaded " + apps.length + " apps");
+if (customapps) console.log("Loaded " + customapps.length + " custom apps");
