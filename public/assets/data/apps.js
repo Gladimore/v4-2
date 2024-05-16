@@ -44,6 +44,10 @@ var apps = [{
     title: 'CineGo',
     url: 'https://cinego.tv/'
   },
+  {
+  	'title': 'Now.gg',
+    'url': 'https://now.gg'
+  }
 ]
 
 var customapps = JSON.parse(localStorage.getItem("customapps"))
@@ -62,6 +66,7 @@ async function assignIds() {
           app.id = data[0];
         });
     }
+    console.log(app)
   }
 }
 
