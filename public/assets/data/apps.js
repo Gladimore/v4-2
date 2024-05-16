@@ -55,8 +55,8 @@ var apps = [{
   },
   {
     id: 'now.gg',
-    'title': 'Now.gg',
-    'url': 'https://now.gg'
+    title: 'Now.gg',
+    url: 'https://now.gg'
   }
 ]
 
