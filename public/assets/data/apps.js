@@ -62,7 +62,9 @@ var apps = [{
 
 for (let i = 0; i < apps.length; i++) {
   let app = apps[i]
-  app.image = `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${app.url}&size=256`
+  if (app.image == undefined){
+      app.image = `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${app.url}&size=256`
+  }
 }
 
 var customapps = JSON.parse(localStorage.getItem("customapps"))
