@@ -5,6 +5,13 @@ var games = [
     image: 'assets/images/add.png'
   },
   {
+    id: 'roblox',
+    title: 'Roblox',
+    url: 'https://now.gg/play/roblox-corporation/5349/roblox',
+    image: 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=w240-h480-rw',
+    description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual.'
+  },
+  {
     id: 'idlebreakout',
     title: 'Idle Breakout',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/5cb61b353cff0365c082c9309e82bb561c027201/idle-breakout/index.html/',
@@ -425,13 +432,6 @@ var games = [
     title: '2048',
     url: 'https://rawcdn.githack.com/3kh0/3kh0-Assets/f839d26b4770ba137c399dc1a1c6ccf22e5f3565/2048/index.html',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/220px-2048_logo.svg.png'
-  },
-  {
-    id: 'roblox',
-    title: 'Roblox',
-    url: 'https://now.gg/play/roblox-corporation/5349/roblox',
-    image: 'https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht=w240-h480-rw',
-    description: 'EXPERIMENTAL: This may or may not work for you. Please don\'t report it if it doesn\'t. If you have bad WiFi, it may load slower than usual.'
   },
   {
     id: 'baconmaydie',
