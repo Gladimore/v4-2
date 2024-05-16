@@ -62,7 +62,6 @@ async function assignIds() {
           app.id = data[0];
         });
     }
-    console.log(app);
   }
 }
 
