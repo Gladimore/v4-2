@@ -60,8 +60,8 @@ var apps = [{
   }
 ]
 
-for (let i = 0; i<apps.length; i++){
-	let app = apps[i]
+for (let i = 0; i < apps.length; i++) {
+  let app = apps[i]
   app.image = `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${app.url}&size=256`
 }
 
