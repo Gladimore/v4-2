@@ -1,6 +1,17 @@
-if (window.self === window.parent){
-    window.location.href = "/"
-} // So if someone tries to skip the login page
+const name = "aboutCloak"
+
+const get = localStorage.getItem(name)
+const bool = get == "true" ? true : false
+
+if (bool || get == null) {
+  if (window.self === window.parent) {
+    location.href = "/"
+  } else {
+    if (location.pathname !== path) {
+      location.href = path
+    }
+  }
+}
 
 const setObj = function (key, obj) {
     localStorage.setItem(key, JSON.stringify(obj))
