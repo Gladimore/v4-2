@@ -4,7 +4,9 @@ function setTheme(theme) {
 }
 
 function setBlank(cloak) {
-    localStorage.setItem("aboutCloak", cloak)
+    const cloak_value = localStorage.getItem("aboutCloak") || true
+    localStorage.setItem("aboutCloak", cloak || !cloak_value)
+    alert(`Set Blank To: ${localStorage.getItem("aboutCloak")}`)
 }
 
 function setTab(name = document.querySelector('#tabname').value, icon = document.querySelector("#tabicon").value) {
