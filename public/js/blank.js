@@ -25,4 +25,6 @@ if (bool || get == null) {
       location.href = path
     }
   }
+} else {
+  location.href = path
 }
